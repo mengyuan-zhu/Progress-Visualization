@@ -1,0 +1,25 @@
+{
+    // 推荐插件列表
+    "recommendations": [
+        // Prettier 格式化器
+        "esbenp.prettier-vscode",
+        // ESLint 检查器
+        "dbaeumer.vscode-eslint",
+        // Eslint中文规则提示插件
+        "maggie.eslint-rules-zh-plugin",
+        // Vue语言支持扩展
+        "Vue.volar",
+        // TS和Vue的开发集成
+        "Vue.vscode-typescript-vue-plugin",
+        // 端到端测试和自动化框架
+        "ms-playwright.playwright",
+        // 多语言国际化
+        "lokalise.i18n-ally",
+        // Nuxt插件
+        "Nuxtr.nuxtr-vscode",
+        // 增强Tauri应用程序开发的体验
+        "tauri-apps.tauri-vscode",
+        // 此扩展提供了对Rust编程的支持
+        "rust-lang.rust-analyzer"
+    ]
+}

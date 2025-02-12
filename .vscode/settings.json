@@ -1,0 +1,28 @@
+{
+    // 设置制表符大小为4个空格
+    "editor.tabSize": 4,
+    // 保存文件时自动格式化代码
+    "editor.formatOnSave": true,
+    // 控制在基于文件内容打开文件时是否自动检测 #editor.tabSize# 和 #editor.insertSpaces#
+    "editor.detectIndentation": false,
+    // 定义一个默认格式化程序
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 要在保存时运行的代码操作种类
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.stylelint": "explicit"
+    },
+    "prettier.enable": true,
+    "prettier.printWidth": 120,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.endOfLine": "auto",
+    "prettier.tabWidth": 4,
+    "eslint.enable": true,
+    // css/scss未知的@规则
+    "css.lint.unknownAtRules": "ignore",
+    "css.lint.unknownProperties": "ignore",
+    "scss.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownProperties": "ignore"
+}
